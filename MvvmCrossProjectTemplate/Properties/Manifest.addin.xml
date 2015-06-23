@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Extension path = "/MonoDevelop/Ide/FileTemplates">
+		<FileTemplate
+			id = "mvxActivityTpl"
+			file = "Templates/MvxActivity.xft.xml" />
+		<FileTemplate
+			id = "mvxActivityAndLayoutTpl"
+			file = "Templates/MvxActivityAndLayoutTemplate.xft.xml" />
+		<FileTemplate
+			id = "mvxViewControllerTpl"
+			file = "Templates/MvxViewControllerTemplate.xft.xml" />
+		<FileTemplate
+			id = "mvxViewModelTpl"
+			file = "Templates/MvxViewModelTemplate.xft.xml" />
+	</Extension>
+</ExtensionModel>

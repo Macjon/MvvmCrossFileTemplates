@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<Template Originator="Jonah Hulselmans" Created="6/23/2015" LastModified="6/23/2015">
+	
+	<TemplateConfiguration>
+		<_Name>MvxViewController</_Name>
+		<_Category>MvvmCross</_Category>
+		<LanguageName>C#</LanguageName>
+		<ProjectType>XamarinIOS</ProjectType>
+		<_Description>Creates a iOS mvx view controller.</_Description>
+	</TemplateConfiguration>
+
+	<Conditions>
+	</Conditions>
+
+	<TemplateFiles>
+		<File name="${Name}View.cs">
+<![CDATA[using Cirrious.MvvmCross.Touch.Views;
+using Foundation;
+using UIKit;
+
+namespace ${Namespace}
+{
+	[Register("${Name}View")]
+    public class ${Name}View : MvxViewController
+    {
+        #region Lifecycle
+
+        public override void ViewDidLoad()
+        {
+            View = new UIView(){ BackgroundColor = UIColor.White };
+            base.ViewDidLoad();
+        }
+
+        #endregion
+    }
+}
+]]>
+		</File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

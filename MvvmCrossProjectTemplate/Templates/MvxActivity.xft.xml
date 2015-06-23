@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<Template Originator="Jonah Hulselmans" Created="6/23/2015" LastModified="6/23/2015">
+	
+	<TemplateConfiguration>
+		<_Name>MvxActivity</_Name>
+		<_Category>MvvmCross</_Category>
+		<LanguageName>C#</LanguageName>
+		<ProjectType>MonoDroid</ProjectType>
+		<_Description>Creates an empty android mvx activity.</_Description>
+	</TemplateConfiguration>
+
+	<Conditions>
+	</Conditions>
+
+	<TemplateFiles>
+		<File name="${Name}View.cs">
+<![CDATA[using Android.App;
+using Android.OS;
+using Cirrious.MvvmCross.Droid.Views;
+
+namespace ${Namespace}
+{
+	[Activity]		
+    public class ${Name}View : MvxActivity
+    {
+        #region Lifecycle
+
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
+        }
+
+        #endregion
+    }
+}
+]]>
+		</File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>

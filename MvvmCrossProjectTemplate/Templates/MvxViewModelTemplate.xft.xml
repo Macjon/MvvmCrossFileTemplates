@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<Template Originator="Jonah Hulselmans" Created="6/23/2015" LastModified="6/23/2015">
+	
+	<TemplateConfiguration>
+		<_Name>ViewModel</_Name>
+		<_Category>MvvmCross</_Category>
+		<LanguageName>C#</LanguageName>
+		<_Description>Creates an empty ViewModel.</_Description>
+	</TemplateConfiguration>
+
+	<Conditions>
+	</Conditions>
+
+	<TemplateFiles>
+		<File name="${Name}ViewModel.cs">
+<![CDATA[using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Input;
+using Cirrious.MvvmCross.ViewModels;
+
+namespace ${Namespace}
+{
+	public class ${Name}ViewModel : MvxViewModel
+	{
+		#region Properties
+
+        #endregion
+
+        #region Commands
+
+        #endregion
+
+        #region Constructor
+
+        public ${Name}ViewModel ()
+        {
+            
+        }
+
+        #endregion
+
+        #region Public
+
+        public void Init ()
+        {
+            
+        }
+
+        #endregion
+
+        #region Private
+
+        #endregion
+	}
+}
+]]>
+		</File>
+	</TemplateFiles>
+	
+	<FileOptions/>
+	
+</Template>
